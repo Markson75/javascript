@@ -3,9 +3,7 @@
 function compareTenAndNine() {
     // Tu código aquí...
 
-    if (10 >= 9) {
-        console.log('true')
-    }
+    console.log(10 >= 9)
 
 }
 
@@ -13,9 +11,7 @@ function compareTenAndNine() {
 function compareZeroAndZero() {
     // Tu código aquí...
 
-    if (0 === 0) {
-        console.log('true')
-    }
+    console.log(0 === 0)
 
 }
 
@@ -23,11 +19,7 @@ function compareZeroAndZero() {
 function compareSeven() {
     // Tu código aquí...
 
-    if (7 > 8 && 7 < 10) {
-        console.log('true')
-    } else {
-        console.log('false')
-    }
+    console.log(7 > 8 && 7 < 10)
 
 }
 
@@ -39,11 +31,7 @@ function canBuyProduct() {
     let precio_total = 1500
     let descuento_veinte = (20 * precio_total) / 100
     let precio = precio_total - descuento_veinte
-    if (precio < 1150) {
-        console.log('true')
-    } else {
-        console.log('false')
-    }
+    console.log(precio <= 1150)
 
 }
 
@@ -70,12 +58,8 @@ function createSumVariable() {
 function createDisabledConstant() {
     // Tu código aquí...
 
-    const IS_DISABLED = 'true'
-    if (IS_DISABLED) {
-        console.log(IS_DISABLED)
-    } else {
-        console.log('false')
-    }
+    const IS_DISABLED = true
+    console.log(IS_DISABLED)
 
 }
 
