@@ -72,7 +72,7 @@ function createDisabledConstant() {
 
     const IS_DISABLED = 'true'
     if (IS_DISABLED) {
-        console.log('true')
+        console.log(IS_DISABLED)
     } else {
         console.log('false')
     }
