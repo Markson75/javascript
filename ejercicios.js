@@ -29,7 +29,7 @@ function canBuyProduct() {
     // Tu código aquí...
 
     let precio_total = 1500
-    let descuento_veinte = (20 * precio_total) / 100
+    let descuento_veinte = (25 * precio_total) / 100
     let precio = precio_total - descuento_veinte
     console.log(precio <= 1150)
 
